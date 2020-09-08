@@ -1,0 +1,38 @@
+{
+  "name": "nomad_css_challenge",
+  "version": "1.0.0",
+  "description": "nomad coder css code challenge collections",
+  "license": "MIT",
+  "homepage": "https://github.com/Ha-Young/nomad_css_challenge#readme",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "rm -rf docs; parcel build -d docs --public-url /nomad_css_challenge src/index.html",
+    "predeploy": "npm clean; npm run build",
+    "deploy": "gh-pages -d docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ha-Young/nomad_css_challenge.git"
+  },
+  "keywords": [
+    "noamd",
+    "css",
+    "nomad",
+    "coder",
+    "css",
+    "challenge"
+  ],
+  "author": "hychoi",
+  "bugs": {
+    "url": "https://github.com/Ha-Young/nomad_css_challenge/issues"
+  },
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0",
+    "parcel-bundler": "^1.10.1",
+    "autoprefixer": "^9.1.5",
+    "postcss-modules": "^1.4.1"
+  }
+}
