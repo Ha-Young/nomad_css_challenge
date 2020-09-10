@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "nomad coder css code challenge collections",
   "license": "MIT",
-  "homepage": "https://github.com/Ha-Young/nomad_css_challenge#readme",
+  "homepage": "https://ha-young.github.io/nomad_css_challenge",
   "scripts": {
     "start": "parcel src/index.html",
     "build": "rm -rf docs; parcel build -d docs --public-url /nomad_css_challenge src/index.html",
