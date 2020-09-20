@@ -5,4 +5,3 @@ nomad coder css code challenge collections
 - CSS
 - CSS flex
 - CSS grid
-- SCSS
